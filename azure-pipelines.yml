@@ -10,9 +10,9 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'sc-acratinkh612'
+  dockerRegistryServiceConnection: 'Newdockercode'
   imageRepository: 'atinguptacorewebappdocker'
-  containerRegistry: 'acratinkh612.azurecr.io'
+  containerRegistry: 'newcontainer0.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/core-web-app-docker/Dockerfile'
   tag: '$(Build.BuildId)'
 
